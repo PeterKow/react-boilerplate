@@ -1,0 +1,97 @@
+{
+  "name": "PeterKow/react-boilerplate",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "master",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/PeterKow/react-boilerplate",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/react-boilerplate",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "react-boilerplate",
+      "subhead": "A boilerplate to start a client-side project using React.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "react-boilerplate: A boilerplate to start a client-side project using React.",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "PeterKow",
+          "repo": "react-boilerplate"
+        }
+      ],
+      "text": "v0.5.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n\n<h2>Features</h2>\n<ul>\n<li><a href=\"https://babeljs.io/docs/learn-es2015\">ES2015</a></li>\n<li><a href=\"https://github.com/facebook/react\">React</a></li>\n<li><a href=\"https://github.com/reactjs/react-router\">React Router</a></li>\n<li><a href=\"https://github.com/css-modules/css-modules\">CSS modules</a></li>\n<li><a href=\"http://postcss.org\">PostCSS</a></li>\n</ul>\n<h2>Tools</h2>\n<ul>\n<li><a href=\"https://github.com/webpack/webpack\">Webpack</a><ul>\n<li><a href=\"https://github.com/webpack/webpack-dev-server\">webpack-dev-server</a> with HMR support</li>\n<li><a href=\"https://github.com/Turbo87/webpack-notifier\">webpack-notifier</a></li>\n</ul>\n</li>\n<li><a href=\"https://github.com/babel/babel\">Babel 6</a> with presets for:<ul>\n<li>ES2015 using <a href=\"https://github.com/babel/babel/tree/master/packages/babel-preset-es2015\">babel-preset-es2015</a></li>\n<li>React using <a href=\"https://github.com/babel/babel/tree/master/packages/babel-preset-react\">babel-preset-react</a></li>\n<li>React HMR and error catching using <a href=\"https://github.com/babel/babel/tree/master/packages/babel-preset-react-hmre\">babel-preset-react-hmre</a></li>\n</ul>\n</li>\n<li><a href=\"https://github.com/eslint/eslint\">ESLint</a> configured to:<ul>\n<li>use Babel 6 as parser using <a href=\"https://github.com/babel/babel-eslint\">babel-eslint</a></li>\n<li>lint page on save using <a href=\"https://github.com/MoOx/eslint-loader\">eslint-loader</a></li>\n</ul>\n</li>\n</ul>\n<h2>Hot Module Replacement (HMR) in action</h2>\n<p><img src=\"https://cloud.githubusercontent.com/assets/983189/12616751/91833172-c504-11e5-87e9-f36efbd1d17c.gif\"></p>\n<p>As you can see the HMR is working without reloading the page for React components and styles.</p>\n<h2>Getting started</h2>\n<pre>$ git <span class=\"hljs-built_in\">clone</span> https://github.com/rbartoli/react-boilerplate.git\n$ npm i\n$ npm start</pre>"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/PeterKow/react-boilerplate",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/PeterKow",
+          "text": "PeterKow"
+        }
+      ]
+    }
+  ]
+}
